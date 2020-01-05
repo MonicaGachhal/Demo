@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <listeners>
+    <listener class-name="listeners.DemoListeners"/>
+  </listeners>
+  <test thread-count="5" name="ChromeTest(failed)">
+    <classes>
+      <class name="listeners.DemoA">
+        <methods>
+          <include name="testC"/>
+          <include name="testB"/>
+        </methods>
+      </class> <!-- listeners.DemoA -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <classes>
+      <class name="listeners.DemoA">
+        <methods>
+          <include name="testC"/>
+          <include name="testB"/>
+        </methods>
+      </class> <!-- listeners.DemoA -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
