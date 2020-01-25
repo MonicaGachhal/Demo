@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="RegressionSuite">
-<listeners>
-<listener class-name="listeners.DemoListeners"></listener>
-</listeners>
-  <test thread-count="5" name="ChromeTest">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
     <classes>
-      <class name="listeners.DemoA"/>
-      <class name="listeners.DemoB"/>
-      <class name="listeners.DemoC"/>
-    </classes>
-  </test> <!-- Test -->
-  <test thread-count="5" name="FirefoxTest">
-    <classes>
-      <class name="listeners.DemoA"/>
-      <class name="listeners.DemoB"/>
-      <class name="listeners.DemoC"/>
+      <class name="extentR.Demo1"/>
+      <class name="extentR.Demo"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

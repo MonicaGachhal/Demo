@@ -1,0 +1,5 @@
+2020-01-18 09:44:26,933 INFO d.RTDemo [main] Maximised the Browser
+2020-01-18 09:44:47,112 DEBUG d.RTDemo [main] Entered URL
+2020-01-18 09:44:47,116 INFO d.RTDemo [main] Finding the Element
+2020-01-18 09:44:57,227 ERROR d.RTDemo [main] ele is not displayed
+2020-01-18 09:44:57,231 DEBUG d.RTDemo [main] Closing the Driver
