@@ -5,7 +5,7 @@ import org.testng.Reporter;
 //import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-//@Listeners(listeners.DemoListeners.class)(packagename
+//@Listeners(listeners.DemoListeners.class)(packagename.fully qualified class name)
 public class DemoA 
 {
 @Test
